@@ -53,7 +53,7 @@ const Login = () => {
     return (
         <>
             <Helmet>
-                <title>SH75 Academy | Login</title>
+                <title>Task Management | Login</title>
             </Helmet>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">

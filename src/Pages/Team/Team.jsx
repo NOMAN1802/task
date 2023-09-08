@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import TeamDetails from './TeamDetails';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -21,6 +22,9 @@ const Team = () => {
     return (
         
         <div>
+            <Helmet>
+                <title>Task Management | Team</title>
+            </Helmet>
             <div>
             <h1 style={{ fontFamily: 'cursive', fontSize: '40px' }} className="text-4xl font-semibold mb-10 text-center">Teams Summary</h1>
             </div>

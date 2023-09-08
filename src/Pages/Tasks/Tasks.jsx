@@ -4,6 +4,7 @@ import MyTasks from '../../components/tasks/MyTasks';
 import TaskCard from './TaskCard';
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 
 
 const Tasks = () => {
@@ -16,7 +17,9 @@ const Tasks = () => {
 
   return (
     <>
-    
+    <Helmet>
+                <title>Task Management | Task</title>
+            </Helmet>
 
       <div className="h-screen grid grid-cols-12">
         <div className="col-span-9 px-10 pt-10">
