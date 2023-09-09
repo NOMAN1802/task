@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 
 const Registration = () => {
     const [users, setUsers] = useState(
-        JSON.parse(localStorage.getItem('tasks')) || []
+        JSON.parse(localStorage.getItem('userInfo')) || []
       );
 
     const { createUser, updateUserProfile } = useContext(AuthContext);

@@ -26,7 +26,7 @@ const Profile = () => {
 
 {
                               Array.isArray(userData) && userData.map((user) => (
-                                <ProfileCard key={user.email} user={user} />))
+                                <ProfileCard key={user.id} user={user} />))
                               
                   }
       </div>
